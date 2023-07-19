@@ -1,7 +1,7 @@
 # Mobile-Price-Range-Prediction-Classification-Project. 
 This data science project aimed to predict mobile phone price ranges based on their specifications using machine learning algorithms.
 In the competitive mobile phone market companies want to understand sales data of mobile phones and factors which drive the prices. The objective is to find out some relation between features of a mobile phone(eg:- RAM, Internal Memory, etc) and its selling price. In this problem, we do not have to predict the actual price but a price range indicating how high the price is
-Attribute Information:
+# Attribute Information:
 Battery_power - Total energy a battery can store in one time measured in mAh
 Blue - Has bluetooth or not
 Clock_speed - speed at which microprocessor executes instructions
@@ -28,7 +28,7 @@ Price_range - This is the target variable with value of
 2(high cost) and
 3(very high cost).
 Thus our target variable has 4 categories so basically it is a Multiclass classification problem.
-Conclusions:
+# Conclusions:
 We Started with Data understanding, data wrangling, basic EDA where we found the relationships, trends between price range and other independent variables.
 We selected the best features for predictive modeling by using K best feature selection method using Chi square statistic.
 Implemented various classification algorithms, out of which the SVM(Support vector machine) algorithm gave the best performance after hyper-parameter tuning with 98.3% train accuracy and 97 % test accuracy.
